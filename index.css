@@ -1,0 +1,37 @@
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bolinhasContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo {
+    border: 2px dotted #a8c7ff;
+    border-radius: 50%;
+}
+
+.bolinha {
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #93bcff;
+    border-radius: 50%;
+    background-color: #dbe8ff;
+    /* transform: translateX(40); */
+}
+
+.selecionada {
+    background-color: blue;
+}
